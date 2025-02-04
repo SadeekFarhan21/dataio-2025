@@ -13,5 +13,5 @@ website:
   repo-url: https://github.com/SadeekFarhan21/dataio-2025
   navbar:
     left:
-      - text: "About Me"
+      - text: "About Us"
         href: about.qmd

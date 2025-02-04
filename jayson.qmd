@@ -1,0 +1,55 @@
+---
+title: "Divvy Bike Analysis"
+format: 
+  html:
+    code-fold: true
+    code-wrap: true
+    code-overflow: wrap
+    code-tools: true
+    tidy: true
+    theme: litera
+execute:
+  echo: true
+  warning: false
+mainfont: Helvetica
+editor_options:
+  markdown:
+    wrap: sentence
+    canonical: true
+
+page-footer: |
+  © 2025 Farhan Sadeek. All Rights Reserved.
+---
+
+```{=html}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fragment+Mono:ital@0;1&display=swap');
+
+p {
+  font-family: 'Funnel Sans';
+}
+
+pre, code {
+  font-family: 'Fragment Mono';
+  font-size: 14px;
+}
+</style>
+```
+
+```{r combining all the datasets}
+df <- bind_rows(
+    january |> mutate(month = 1),
+    february |>  mutate(month = 2),
+    march|>  mutate(month = 3),
+    april|>  mutate(month = 4),
+    may|>  mutate(month = 5),
+    june|>  mutate(month = 6),
+    july |> mutate(month = 7),
+    august |> mutate(month = 8),
+    september |> mutate(month = 9),
+    october |> mutate(month = 10),
+    november |> mutate(month = 11),
+    december|>  mutate(month = 12)
+)
+```
