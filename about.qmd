@@ -29,10 +29,10 @@ pre, code {
 Team Janardhan is a group of data scientists and engineers who are passionate about using data to solve real-world problems. We are committed to delivering high-quality, data-driven solutions that help our clients achieve their goals.
 
 ## Team Members
-- **Ragav Janardhan**: Team Lead, Major in Mathematics and Computer Science, Class of 2020
-- **Jayson Clark**: Data Scientist, Major in Computer Science, Class of 2021
-- **Luke Zhang**: Data Engineer, Major in Statistics, Class of 2019
-- **Farhan Sadeek**: Data Analyst, Major in Physics, Class of 2022
+- **Ragav Janardhan**: Team Lead, Major in Mathematics and Computer Science
+- **Jayson Clark**: Data Scientist, Major in Computer Science
+- **Luke Zhang**: Data Engineer, Major in Data Analytics
+- **Farhan Sadeek**: Data Analyst, Major in Physics
 
 ## Who We Are
 At Team Janardhan, we believe in the power of data to transform businesses and drive innovation. Our team is composed of experts in data science, engineering, and analysis, each bringing a unique set of skills and experiences to the table. We work collaboratively to tackle complex challenges and deliver actionable insights that empower our clients to make informed decisions. Our mission is to harness the potential of data to create impactful solutions and drive success for our clients.
