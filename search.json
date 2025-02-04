@@ -1,14 +1,21 @@
 [
   {
-    "objectID": "ragav.html",
-    "href": "ragav.html",
+    "objectID": "jayson.html",
+    "href": "jayson.html",
     "title": "",
     "section": "",
     "text": "Code"
   },
   {
-    "objectID": "jayson.html",
-    "href": "jayson.html",
+    "objectID": "luke.html",
+    "href": "luke.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "ragav.html",
+    "href": "ragav.html",
     "title": "",
     "section": "",
     "text": "Code"
@@ -18,14 +25,14 @@
     "href": "about.html",
     "title": "Team Janardhan",
     "section": "",
-    "text": "Team Janardhan is a group of data scientists and engineers who are passionate about using data to solve real-world problems. We are committed to delivering high-quality, data-driven solutions that help our clients achieve their goals.\n\n\n\nRagav Janardhan: Team Lead, Major in Mathematics and Computer Science, Class of 2020\nJayson Clark: Data Scientist, Major in Computer Science, Class of 2021\nLuke Zhang: Data Engineer, Major in Statistics, Class of 2019\nFarhan Sadeek: Data Analyst, Major in Physics, Class of 2022\n\n\n\n\nAt Team Janardhan, we believe in the power of data to transform businesses and drive innovation. Our team is composed of experts in data science, engineering, and analysis, each bringing a unique set of skills and experiences to the table. We work collaboratively to tackle complex challenges and deliver actionable insights that empower our clients to make informed decisions. Our mission is to harness the potential of data to create impactful solutions and drive success for our clients."
+    "text": "Team Janardhan is a group of data scientists and engineers who are passionate about using data to solve real-world problems. We are committed to delivering high-quality, data-driven solutions that help our clients achieve their goals.\n\n\n\nRagav Janardhan: Team Lead, Major in Mathematics and Computer Science\nJayson Clark: Data Scientist, Major in Computer Science\nLuke Zhang: Data Engineer, Major in Data Analytics\nFarhan Sadeek: Data Analyst, Major in Physics\n\n\n\n\nAt Team Janardhan, we believe in the power of data to transform businesses and drive innovation. Our team is composed of experts in data science, engineering, and analysis, each bringing a unique set of skills and experiences to the table. We work collaboratively to tackle complex challenges and deliver actionable insights that empower our clients to make informed decisions. Our mission is to harness the potential of data to create impactful solutions and drive success for our clients."
   },
   {
     "objectID": "about.html#team-members",
     "href": "about.html#team-members",
     "title": "Team Janardhan",
     "section": "",
-    "text": "Ragav Janardhan: Team Lead, Major in Mathematics and Computer Science, Class of 2020\nJayson Clark: Data Scientist, Major in Computer Science, Class of 2021\nLuke Zhang: Data Engineer, Major in Statistics, Class of 2019\nFarhan Sadeek: Data Analyst, Major in Physics, Class of 2022"
+    "text": "Ragav Janardhan: Team Lead, Major in Mathematics and Computer Science\nJayson Clark: Data Scientist, Major in Computer Science\nLuke Zhang: Data Engineer, Major in Data Analytics\nFarhan Sadeek: Data Analyst, Major in Physics"
   },
   {
     "objectID": "about.html#who-we-are",
@@ -33,12 +40,5 @@
     "title": "Team Janardhan",
     "section": "",
     "text": "At Team Janardhan, we believe in the power of data to transform businesses and drive innovation. Our team is composed of experts in data science, engineering, and analysis, each bringing a unique set of skills and experiences to the table. We work collaboratively to tackle complex challenges and deliver actionable insights that empower our clients to make informed decisions. Our mission is to harness the potential of data to create impactful solutions and drive success for our clients."
-  },
-  {
-    "objectID": "luke.html",
-    "href": "luke.html",
-    "title": "",
-    "section": "",
-    "text": "Code"
   }
 ]
