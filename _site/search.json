@@ -2,15 +2,29 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "dataio-2025",
+    "title": "Data I/O 2025",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Team Janardhan",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Team Janardhan is a group of data scientists and engineers who are passionate about using data to solve real-world problems. We are committed to delivering high-quality, data-driven solutions that help our clients achieve their goals.\n\n\n\nRagav Janardhan: Team Lead, Major in Mathematics and Computer Science, Class of 2020\nJayson Clark: Data Scientist, Major in Computer Science, Class of 2021\nLuke Zhang: Data Engineer, Major in Statistics, Class of 2019\nFarhan Sadeek: Data Analyst, Major in Physics, Class of 2022\n\n\n\n\nAt Team Janardhan, we believe in the power of data to transform businesses and drive innovation. Our team is composed of experts in data science, engineering, and analysis, each bringing a unique set of skills and experiences to the table. We work collaboratively to tackle complex challenges and deliver actionable insights that empower our clients to make informed decisions. Our mission is to harness the potential of data to create impactful solutions and drive success for our clients."
+  },
+  {
+    "objectID": "about.html#team-members",
+    "href": "about.html#team-members",
+    "title": "Team Janardhan",
+    "section": "",
+    "text": "Ragav Janardhan: Team Lead, Major in Mathematics and Computer Science, Class of 2020\nJayson Clark: Data Scientist, Major in Computer Science, Class of 2021\nLuke Zhang: Data Engineer, Major in Statistics, Class of 2019\nFarhan Sadeek: Data Analyst, Major in Physics, Class of 2022"
+  },
+  {
+    "objectID": "about.html#who-we-are",
+    "href": "about.html#who-we-are",
+    "title": "Team Janardhan",
+    "section": "",
+    "text": "At Team Janardhan, we believe in the power of data to transform businesses and drive innovation. Our team is composed of experts in data science, engineering, and analysis, each bringing a unique set of skills and experiences to the table. We work collaboratively to tackle complex challenges and deliver actionable insights that empower our clients to make informed decisions. Our mission is to harness the potential of data to create impactful solutions and drive success for our clients."
   }
 ]

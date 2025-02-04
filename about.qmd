@@ -1,9 +1,40 @@
 ---
-title: "About"
+format: 
+  html:
+    toc: true
+    theme: litera
+language: 
+  section-title-footnotes: Example Footnotes
+page-footer: |
+  © 2025 Team Janardhan. All Rights Reserved.
 ---
 
-About this site
+```{=html}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fragment+Mono:ital@0;1&display=swap');
 
-```{r}
-1 + 1
+p {
+  font-family: 'Funnel Sans';
+}
+
+pre, code {
+  font-family: 'Fragment Mono';
+  font-size: 14px;
+}
+</style>
 ```
+
+# Team Janardhan
+Team Janardhan is a group of data scientists and engineers who are passionate about using data to solve real-world problems. We are committed to delivering high-quality, data-driven solutions that help our clients achieve their goals.
+
+## Team Members
+- **Ragav Janardhan**: Team Lead, Major in Mathematics and Computer Science, Class of 2020
+- **Jayson Clark**: Data Scientist, Major in Computer Science, Class of 2021
+- **Luke Zhang**: Data Engineer, Major in Statistics, Class of 2019
+- **Farhan Sadeek**: Data Analyst, Major in Physics, Class of 2022
+
+## Who We Are
+At Team Janardhan, we believe in the power of data to transform businesses and drive innovation. Our team is composed of experts in data science, engineering, and analysis, each bringing a unique set of skills and experiences to the table. We work collaboratively to tackle complex challenges and deliver actionable insights that empower our clients to make informed decisions. Our mission is to harness the potential of data to create impactful solutions and drive success for our clients.
+
+
