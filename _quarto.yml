@@ -15,3 +15,6 @@ website:
     left:
       - text: "About Us"
         href: about.qmd
+      - ragav.qmd
+      - luke.qmd
+      - jayson.qmd

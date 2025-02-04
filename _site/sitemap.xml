@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dataio-2025.netlify.app/index.html</loc>
-    <lastmod>2025-02-04T13:32:00.033Z</lastmod>
+    <loc>https://dataio-2025.netlify.app/ragav.html</loc>
+    <lastmod>2025-02-04T14:02:06.294Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dataio-2025.netlify.app/jayson.html</loc>
+    <lastmod>2025-02-04T14:02:06.290Z</lastmod>
   </url>
   <url>
     <loc>https://dataio-2025.netlify.app/about.html</loc>
-    <lastmod>2025-02-04T13:31:48.442Z</lastmod>
+    <lastmod>2025-02-04T14:02:05.904Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dataio-2025.netlify.app/index.html</loc>
+    <lastmod>2025-02-04T14:02:06.289Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dataio-2025.netlify.app/luke.html</loc>
+    <lastmod>2025-02-04T14:02:06.292Z</lastmod>
   </url>
 </urlset>

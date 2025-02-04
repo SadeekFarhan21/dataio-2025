@@ -2,3 +2,6 @@
   netlify:
     - id: 42a4e3b7-213e-439e-9549-c015279ba0e4
       url: https://dataio-2025.netlify.app
+  quarto-pub:
+    - id: 812f324b-6ffe-4d82-aa0d-a1c766f4ab6f
+      url: https://fsadeek.quarto.pub/data-io-2025

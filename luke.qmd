@@ -1,5 +1,4 @@
 ---
-title: "Divvy Bike Analysis"
 format: 
   html:
     code-fold: true
@@ -18,7 +17,7 @@ editor_options:
     canonical: true
 
 page-footer: |
-  © 2025 Farhan Sadeek. All Rights Reserved.
+  © 2025 Team Janardhan. All Rights Reserved.
 ---
 
 ```{=html}
@@ -38,18 +37,5 @@ pre, code {
 ```
 
 ```{r combining all the datasets}
-df <- bind_rows(
-    january |> mutate(month = 1),
-    february |>  mutate(month = 2),
-    march|>  mutate(month = 3),
-    april|>  mutate(month = 4),
-    may|>  mutate(month = 5),
-    june|>  mutate(month = 6),
-    july |> mutate(month = 7),
-    august |> mutate(month = 8),
-    september |> mutate(month = 9),
-    october |> mutate(month = 10),
-    november |> mutate(month = 11),
-    december|>  mutate(month = 12)
-)
+
 ```

@@ -18,6 +18,14 @@ p {
   font-family: 'Funnel Sans';
 }
 
+ul, ol {
+  font-family: 'Funnel Sans';
+}
+
+li {
+  font-family: 'Funnel Sans';
+}
+
 pre, code {
   font-family: 'Fragment Mono';
   font-size: 14px;

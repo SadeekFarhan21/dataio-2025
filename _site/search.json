@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Data I/O 2025",
+    "objectID": "ragav.html",
+    "href": "ragav.html",
+    "title": "",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Code"
+  },
+  {
+    "objectID": "jayson.html",
+    "href": "jayson.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
   },
   {
     "objectID": "about.html",
@@ -26,5 +33,12 @@
     "title": "Team Janardhan",
     "section": "",
     "text": "At Team Janardhan, we believe in the power of data to transform businesses and drive innovation. Our team is composed of experts in data science, engineering, and analysis, each bringing a unique set of skills and experiences to the table. We work collaboratively to tackle complex challenges and deliver actionable insights that empower our clients to make informed decisions. Our mission is to harness the potential of data to create impactful solutions and drive success for our clients."
+  },
+  {
+    "objectID": "luke.html",
+    "href": "luke.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
   }
 ]
