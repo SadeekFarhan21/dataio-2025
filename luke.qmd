@@ -36,7 +36,8 @@ pre, code {
 </style>
 ```
 
-```{r combining all the datasets}
+```{r, include=FALSE}
+#Practice EDA
 library(skimr)
 df = mtcars
 df$vs = factor(df$vs)
@@ -48,11 +49,79 @@ introduce(df)
 plot_intro(df)
 plot_missing(df)
 plot_histogram(df)
-plot_correlation_df
 ```
 
 ```{r}
+#Importing given datasets
+library(readr)
+library(base)
 global <- read_csv("datasets/global air pollution dataset.csv")
 canada <- read_csv("datasets/Canada/CO2 Emissions_Canada.csv")
 cement <- read.csv("~/Documents/DataIO25/datasets/Cement_emissions.csv", header=FALSE, comment.char="#")
+```
+
+```{r,include=FALSE}
+#EDA on Canada
+
+plot_intro(canada)
+unique(canada$Make)
+unique(canada$Model)
+unique(canada$`Vehicle Class`)
+unique(canada$`Engine Size(L)`)
+plot(canada$`Engine Size(L)`, canada$`CO2 Emissions(g/km)`)
+cor(canada$`Engine Size(L)`, canada$`CO2 Emissions(g/km)`)
+unique(canada$Cylinders)
+library(ggplot2)
+ggplot(canada, aes(x=Cylinders, y=`CO2 Emissions(g/km)`)) + geom_point() + geom_jitter()
+plot(canada$Cylinders, canada$`CO2 Emissions(g/km)`)
+plot(canada$`Fuel Consumption Comb (mpg)`, canada$`CO2 Emissions(g/km)`)
+plot(log(canada$`Fuel Consumption Comb (mpg)`), log(canada$`CO2 Emissions(g/km)`))
+canada.lm = lm(log(`CO2 Emissions(g/km)`) ~ log(`Fuel Consumption Comb (mpg)`), data = canada)
+plot(canada.lm$fitted.values, canada.lm$residuals)
+cor(canada$Cylinders, canada$`CO2 Emissions(g/km)`)
+
+#Fuel consumption and engine type vs emissions
+ggplot(canada, aes(x = log(`Fuel Consumption Comb (mpg)`), 
+                    y = log(`CO2 Emissions(g/km)`), 
+                    color = `Engine Size(L)`)) +
+  geom_point() +
+  scale_color_gradient(low = "blue", high = "red") + 
+  labs(x = "Log Fuel Consumption (mpg)", 
+       y = "Log CO2 Emissions (g/km)", 
+       color = "Engine Size (L)") +
+  theme_minimal()
+
+plot(canada$`Engine Size(L)` ,log(canada$`CO2 Emissions(g/km)`) - canada.lm$fitted.values)
+
+#Fuel consumption and fuel type vs emissions
+ggplot(canada, aes(x = log(`Fuel Consumption Comb (mpg)`), 
+                    y = log(`CO2 Emissions(g/km)`), 
+                    color = `Fuel Type`)) +
+  geom_point() +
+  labs(x = "Log Fuel Consumption (mpg)", 
+       y = "Log CO2 Emissions (g/km)", 
+       color = "Fuel Type") +
+  theme_minimal()
+
+#Fuel consumption and fuel type vs emissions
+ggplot(canada, aes(x = log(`Engine Size(L)`), 
+                    y = log(`CO2 Emissions(g/km)`), 
+                    color = `Fuel Type`)) +
+  geom_point() +
+  labs(x = "Log Fuel Consumption (mpg)", 
+       y = "Log CO2 Emissions (g/km)", 
+       color = "Fuel Type") +
+  theme_minimal()
+```
+
+```{r}
+#Fuel consumption and fuel type vs emissions
+ggplot(canada, aes(x = log(`Fuel Consumption Comb (mpg)`), 
+                    y = log(`CO2 Emissions(g/km)`), 
+                    color = `Fuel Type`)) +
+  geom_point() +
+  labs(x = "Log Fuel Consumption (mpg)", 
+       y = "Log CO2 Emissions (g/km)", 
+       color = "Fuel Type") +
+  theme_minimal()
 ```
