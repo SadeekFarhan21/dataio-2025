@@ -62,18 +62,19 @@ cement <- read.csv("~/Documents/DataIO25/datasets/Cement_emissions.csv", header=
 
 ```{r,include=FALSE}
 #EDA on Canada
-
 plot_intro(canada)
 unique(canada$Make)
 unique(canada$Model)
 unique(canada$`Vehicle Class`)
 unique(canada$`Engine Size(L)`)
-plot(canada$`Engine Size(L)`, canada$`CO2 Emissions(g/km)`)
-cor(canada$`Engine Size(L)`, canada$`CO2 Emissions(g/km)`)
 unique(canada$Cylinders)
+
+#Cylinders vs CO2 Emissions
 library(ggplot2)
 ggplot(canada, aes(x=Cylinders, y=`CO2 Emissions(g/km)`)) + geom_point() + geom_jitter()
 plot(canada$Cylinders, canada$`CO2 Emissions(g/km)`)
+
+#Fuel consumption vs co2 emissions
 plot(canada$`Fuel Consumption Comb (mpg)`, canada$`CO2 Emissions(g/km)`)
 plot(log(canada$`Fuel Consumption Comb (mpg)`), log(canada$`CO2 Emissions(g/km)`))
 canada.lm = lm(log(`CO2 Emissions(g/km)`) ~ log(`Fuel Consumption Comb (mpg)`), data = canada)
@@ -112,6 +113,10 @@ ggplot(canada, aes(x = log(`Engine Size(L)`),
        y = "Log CO2 Emissions (g/km)", 
        color = "Fuel Type") +
   theme_minimal()
+
+#Engine Size vs fuel consumption
+plot(log(canada$`Engine Size(L)`), log(canada$`Fuel Consumption Comb (mpg)`))
+cor(log(canada$`Engine Size(L)`), log(canada$`Fuel Consumption Comb (mpg)`))
 ```
 
 ```{r}
