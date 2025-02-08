@@ -37,5 +37,22 @@ pre, code {
 ```
 
 ```{r combining all the datasets}
+library(skimr)
+df = mtcars
+df$vs = factor(df$vs)
+df$am = factor(df$am)
+skim(df)
 
+library(DataExplorer)
+introduce(df)
+plot_intro(df)
+plot_missing(df)
+plot_histogram(df)
+plot_correlation_df
+```
+
+```{r}
+global <- read_csv("datasets/global air pollution dataset.csv")
+canada <- read_csv("datasets/Canada/CO2 Emissions_Canada.csv")
+cement <- read.csv("~/Documents/DataIO25/datasets/Cement_emissions.csv", header=FALSE, comment.char="#")
 ```
