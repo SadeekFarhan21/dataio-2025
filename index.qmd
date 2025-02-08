@@ -33,3 +33,47 @@ pre, code {
 </style>
 ```
 
+
+# Team Janardhan
+## Introduction
+
+In our project, we are analyzing the impact of different types of cars on the air quality index (AQI) in two different cities: Singapore and Houston. The primary reason for selecting these two cities is their contrasting environmental conditions and urban development patterns. Singapore, a highly urbanized city-state in Southeast Asia, is known for its stringent environmental regulations and efforts to maintain high air quality standards, including the promotion of electric and hybrid vehicles. On the other hand, Houston, a major city in the United States, is characterized by its extensive industrial activities and a higher prevalence of gasoline and diesel-powered vehicles, which significantly impact its air quality.
+
+By comparing the AQI data from these two cities, we aim to gain insights into the effectiveness of different types of vehicles and their impact on air quality. This analysis will help us understand the key factors contributing to air pollution from vehicular emissions in different urban settings and identify potential strategies for improving air quality through the adoption of cleaner vehicle technologies.
+
+Our study will involve collecting AQI data from various sources, analyzing trends over time, and examining the correlation between AQI levels and the types of vehicles used in these cities. We will also explore the health implications of vehicular air pollution and evaluate the measures taken by local authorities to promote cleaner transportation options.
+
+Ultimately, our goal is to provide actionable recommendations for policymakers, urban planners, and environmental organizations to enhance air quality management through the adoption of sustainable transportation solutions.
+
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(paletteer)
+library(PNWColors) 
+library(leaflet)
+scale_colour_paletteer_d("PNWColors::Sunset")
+scale_fill_paletteer_d("PNWColors::Sunset")
+theme_set(theme_minimal())
+```
+
+```{r importing datasets}
+#| echo: true
+library(readr)
+library(tidyverse)
+df <- read_csv("datasets/Canada/CO2 Emissions_Canada.csv")
+View(df)
+```
+
+## Recommendations
+1. **Promote Electric and Hybrid Vehicles**: Encourage the adoption of electric and hybrid vehicles through incentives, subsidies, and infrastructure development to reduce reliance on fossil fuels.
+
+2. **Implement Stricter Emission Standards**: Enforce stricter emission standards for gasoline and diesel vehicles to limit their contribution to air pollution.
+
+3. **Enhance Public Transportation**: Invest in and promote public transportation systems to reduce the number of private vehicles on the road, thereby decreasing overall emissions.
+
+4. **Encourage Carpooling and Ride-Sharing**: Promote carpooling and ride-sharing initiatives to reduce the number of vehicles on the road.
+
+5. **Increase Green Spaces**: Develop more green spaces and urban forests to improve air quality and provide natural filtration of pollutants.
+
+
+
