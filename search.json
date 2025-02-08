@@ -1,14 +1,21 @@
 [
   {
-    "objectID": "ragav.html",
-    "href": "ragav.html",
+    "objectID": "jayson.html",
+    "href": "jayson.html",
     "title": "",
     "section": "",
     "text": "Code"
   },
   {
-    "objectID": "jayson.html",
-    "href": "jayson.html",
+    "objectID": "luke.html",
+    "href": "luke.html",
+    "title": "",
+    "section": "",
+    "text": "CodeShow All CodeHide All CodeView Source\n\n\n\n\n\n\n\nCode\n#Importing given datasets\nlibrary(readr)\nlibrary(base)\nglobal &lt;- read_csv(\"datasets/global air pollution dataset.csv\")\ncanada &lt;- read_csv(\"datasets/Canada/CO2 Emissions_Canada.csv\")\ncement &lt;- read.csv(\"~/Documents/DataIO25/datasets/Cement_emissions.csv\", header=FALSE, comment.char=\"#\")\n\n\n\n\nCode\n#Fuel consumption and fuel type vs emissions\nggplot(canada, aes(x = log(`Fuel Consumption Comb (mpg)`), \n                    y = log(`CO2 Emissions(g/km)`), \n                    color = `Fuel Type`)) +\n  geom_point() +\n  labs(x = \"Log Fuel Consumption (mpg)\", \n       y = \"Log CO2 Emissions (g/km)\", \n       color = \"Fuel Type\") +\n  theme_minimal()"
+  },
+  {
+    "objectID": "ragav.html",
+    "href": "ragav.html",
     "title": "",
     "section": "",
     "text": "Code"
@@ -33,12 +40,5 @@
     "title": "Team Janardhan",
     "section": "",
     "text": "At Team Janardhan, we believe in the power of data to transform businesses and drive innovation. Our team is composed of experts in data science, engineering, and analysis, each bringing a unique set of skills and experiences to the table. We work collaboratively to tackle complex challenges and deliver actionable insights that empower our clients to make informed decisions. Our mission is to harness the potential of data to create impactful solutions and drive success for our clients."
-  },
-  {
-    "objectID": "luke.html",
-    "href": "luke.html",
-    "title": "",
-    "section": "",
-    "text": "Code"
   }
 ]
